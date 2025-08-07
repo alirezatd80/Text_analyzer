@@ -1,5 +1,3 @@
-from function import find_word,find_sentences,count_word,count_lettler,longest_word
+from function import find_word,find_sentences,count_word,count_lettler,longest_word,shortest_word,more_letter,min_letter,max_word,min_word
 
 
-
-print((longest_word('hi \n i am alireza.i am  joke?for ever!\ndo you know ? n for n'.strip())))
