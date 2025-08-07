@@ -16,3 +16,7 @@ def count_word(text:str):
 def count_lettler(text:str):
     letters = list(string.ascii_lowercase)
     return {letter: text.count(letter) for letter in letters}
+
+def longest_word(text:str):
+    words = find_word(text)
+    return(max(len(word) for word in words))
