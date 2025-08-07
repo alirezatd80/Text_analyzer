@@ -19,10 +19,10 @@ def count_lettler(text:str):
 
 def longest_word(text:str):
     words = find_word(text)
-    return(max(len(word) for word in words))
+    return(max(words , key=len))
 def shortest_word(text:str):
     words= find_word(text)
-    return(min(len(word) for word in words))
+    return(min(words, key=len))
 def more_letter(text:str):
     dic_letter = count_lettler(text)
     return max(dic_letter , key=dic_letter.get)
